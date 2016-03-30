@@ -1,0 +1,11 @@
+<div class="header jumbotron">
+  <div class="container">
+    <h1>Dramatic Fanfiction Readings</h1>
+  </div>
+</div>
+
+<div class="post-view">
+  {{#each model as |post|}}
+    {{post-tile post=post}}
+  {{/each}}
+</div>

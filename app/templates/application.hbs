@@ -1,3 +1,6 @@
-<h2 id="title">Welcome to Ember</h2>
-
+<div class="nav-bar">
+  {{#link-to 'contact' class="contact"}}Contact{{/link-to}}
+  {{#link-to 'about' class="about"}}About{{/link-to}}
+  {{#link-to 'admin' class="admin"}}Admin{{/link-to}}
+</div>
 {{outlet}}
